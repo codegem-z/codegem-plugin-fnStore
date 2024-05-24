@@ -7,7 +7,7 @@
   "files": ["dist"],
   "scripts": {
     "build": "rimraf dist && tsc",
-    "release": "npm renew-it"
+    "release": "pnpm renew-it --remote origin/main"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
