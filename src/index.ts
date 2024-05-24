@@ -1,2 +1,2 @@
-export { default as loadFnStore } from "./load";
-export { default as createFnStore } from "./machine";
+export { default as loadFnStore } from "./load.js";
+export { default as createFnStore } from "./machine.js";
