@@ -1,0 +1,23 @@
+{
+  "name": "codegem-plugin-fnstore",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "release": "npm renew-it"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.12.12",
+    "renew-it": "^1.5.2",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
